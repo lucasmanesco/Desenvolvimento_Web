@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Currsinho Web - Contato</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="livros.png">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Página Inicial</a> | <a href="disciplinas.html">Disciplinas Oferecidas</a> | <a href="contato.html">Entre em contato</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Dados para Contato></h1>
+            <form method="post">
+                <section>
+                    <article>
+                        <div>
+                            <label for="txt-nome">Nome Completo:</label><br>
+                            <input type="text" name="nome" id="txt-nome" size="50">
+                        </div>
+                        <div>
+                            <label for="txt-email">E-mail:</label><br>
+                            <input type="email" name="email" id="txt-email" size="50">
+                        </div>
+                    </article>
+                    <br>
+                    <article>
+                        <div>
+                            <label for="se-disciplina">Qual disciplina te interessa mais?</label><br>
+                            <select name="disciplina" id="se-disciplina">
+                                <option value="dw" selected>Desenvolvimento Web</option>
+                                <option value="poo">Programação Orientada a Objetos</option>
+                                <option value="cd">Ciência de Dados</option>
+                                <option value="sql">Linguagem SQL</option>
+                            </select>
+                        </div>
+                    </article>
+                    <br>
+                    <article>
+                        <div>
+                            <fieldset>
+                                <legend>Quais linguagens você conhece?</legend>
+                                <input type="checkbox" name="linguagem" id="cb-c" value="c">
+                                <label for="cb-c">C#</label><br>                            
+                                <input type="checkbox" name="linguagem" id="cb-Java" value="java">
+                                <label for="cb-java">Java</label><br>                            
+                                <input type="checkbox" name="linguagem" id="cb-js" value="js">
+                                <label for="cb-js">JavaScript</label><br>                            
+                                <input type="checkbox" name="linguagem" id="cb-py" value="py">
+                                <label for="cb-py">Python</label><br>                            
+                                <input type="checkbox" name="linguagem" id="cb-php" value="php">
+                                <label for="cb-php">PHP</label><br>                            
+                                <input type="checkbox" name="linguagem" id="cb-ruby" value="ruby">
+                                <label for="cb-ruby">Ruby</label><br>
+                            </fieldset>
+                        </div>
+                    </article>
+                    <br>
+                    <article>
+                        <div>
+                            <fieldset>
+                                <legend>Onde você conheceu o Cursinho Web?</legend>                            
+                                <input type="radio" name="onde" id="ra-amigos" value="amigos" checked>
+                                <label for="ra-amigos">Amigos</label><br>                            
+                                <input type="radio" name="onde" id="ra-google" value="google">
+                                <label for="ra-google">Google</label><br>                            
+                                <input type="radio" name="onde" id="ra-yt" value="yt">
+                                <label for="ra-yt">Youtube</label><br>                            
+                                <input type="radio" name="onde" id="ra-insta" value="insta">
+                                <label for="ra-insta">Instagram</label><br>
+                            </fieldset>
+                        </div>
+                    </article>
+                    <br>
+                    <article>
+                        <div>
+                            <button type="reset">Limpar</button>
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </article>
+                </section>
+            </form>
+        </main>
+        <footer>
+            <br>
+            <p>Cursinho Web - Todos os direitos reservados.</p>
+            <p>Contato: <a href="mailto:lucas_manesco@hotmail.com">lucas_manesco@hotmail.com</a></p>
+        </footer>
+    </body>
+</html>

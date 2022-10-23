@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exemplos de Formulários</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form method="POST" action="recebe_dados.html">
+            <div>
+                <label for="txt-usuario">Usuário:</label>
+                <input type="text" name="usuario" id="txt-usuario" placeholder="Digite o seu usuário...">
+            </div>
+            <br>
+            <div>
+                <label for="psw-senha">Senha:</label>
+                <input type="password" name="senha" id="psw-senha">
+            </div>
+            <br>
+            <div>
+                <label for="txt-email">E-mail:</label>
+                <input type="email" name="email" id="txt-email">
+            </div>
+            <br>
+            <div>
+                <label for="dt-data">Data:</label>
+                <input type="date" name="data" id="dt-data">
+            </div>
+            <br>
+            <div>
+                <label for="dt-datahora">Data e hora:</label>
+                <input type="datetime-local" name="datahora" id="dt-datahora">
+            </div>
+            <br>
+            <div>
+                <label for="nm-numero">Número:</label>
+                <input type="number" name="numero" id="nm-numero">
+            </div>
+            <br>
+            <div>
+                <label for="txt-msg">Mensagem:</label><br>
+                <textarea name="mensagem" id="txt-msg" rows="5" cols="25">Esse texto já vem carregado.</textarea>
+            </div>
+            <br>
+            <div>
+                <label for="se-estado">Selecione o seu estado:</label>
+                <select name="estado" id="se-estado">
+                    <option value="SP" selected>São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espírito Santo</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                <legend>Selecione o turno da sua preferência:</legend>
+                <label for="cb-manha">Manhã</label>
+                <input type="checkbox" name="turno" id="cb-manha" value="m" checked>
+                <label for="cb-tarde">Tarde</label>
+                <input type="checkbox" name="turno" id="cb-tarde" value="t">
+                <label for="cb-noite">Noite</label>
+                <input type="checkbox" name="turno" id="cb-noite" value="n">
+                </fieldset>
+            </div>
+            <br>
+            <fieldset>
+                <legend>Sexo:</legend>
+                <label for="cb-masc">Masculino</label>
+                <input type="radio" name="sexo" id="ra-masc" value="masc">
+                <label for="cb-fem">Feminino</label>
+                <input type="radio" name="sexo" id="ra-fem" value="fem" checked>
+            </fieldset>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+                <button type="button">Clique</button>
+            </div>
+        </form>
+    </body>
+</html>

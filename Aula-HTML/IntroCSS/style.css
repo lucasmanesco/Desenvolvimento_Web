@@ -1,0 +1,67 @@
+p {
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: 16px;
+
+    text-decoration: underline;
+    text-transform: uppercase;
+
+    text-align: justify;
+    text-indent: 5%;
+
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    line-height: 20px;
+
+    color: rgb(255, 255, 255);
+    color: red;
+    color: #ff0000;
+    background-color: black;
+}
+
+h1 {
+    color: blue;
+}
+
+h1#principal {
+    color: green;
+}
+
+.principal{
+    color: blueviolet;
+}
+
+.urgente{
+    color: orangered;
+    font-weight: lighter;
+}
+
+a[href="https://www.impacta.com.br"]{
+    color: green;
+    text-decoration: none;
+}
+
+nav a{
+
+}
+
+a:link { não visitados
+
+}
+
+a:visited{ visitados
+
+}
+
+a:hover{ quando coloca o mouse em cima;
+
+}
+
+p::first-line{
+
+}
+
+p::first-letter{
+
+}
